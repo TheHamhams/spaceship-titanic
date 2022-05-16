@@ -1,8 +1,8 @@
-from ctypes import create_unicode_buffer
+
 import streamlit as st 
 import pickle
 import numpy as np
-import pandas as pd
+
 
 def load_model():
     with open('model.pickle', 'rb') as file:
